@@ -1,0 +1,9 @@
+.DS_Store
+.coverage*
+/**/.DS_Store
+/**/.ipynb_checkpoints/*
+/**/__pycache__/*
+.ipynb_checkpoints/*
+/**/.coverage
+.virtual_documents/*
+/**/.virtual_documents/*
