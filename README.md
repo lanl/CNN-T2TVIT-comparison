@@ -8,7 +8,7 @@ This code was developed by **Skylar Callis** while working as a post-bachelors s
 
 This code has been approved by LANL for a BSD-3 open source license under O#4749.
 
-The GitHub page for this code can be found at [here](TBD).
+The GitHub page for this code can be found at [here](https://github.com/lanl/CNN-T2TViT-comparison).
 
 ## Contents
 

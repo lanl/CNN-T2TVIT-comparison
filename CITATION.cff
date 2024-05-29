@@ -16,6 +16,7 @@ authors:
     email: sjcallis@lanl.gov
     affiliation: Los Alamos National Laboratory
     orcid: 'https://orcid.org/0009-0009-4133-377X'
+repository-code: 'https://github.com/lanl/CNN-T2TViT-comparison'
 abstract: >-
   This directory contains code associated with "Comparing
   the Accuracy and Training Paradigms of Convolutional
