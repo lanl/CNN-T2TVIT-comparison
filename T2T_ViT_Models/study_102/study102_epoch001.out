@@ -1,0 +1,227 @@
+PARTITION                     GRES NODELIST
+main*             gpu:8(S:0-1) dodona
+
+
+
+Slurm & Device Information
+=========================================
+Slurm Job ID: 6341
+Pytorch Cuda Available: True
+GPU ID: 5
+Number of System CPUs: 48
+Number of CPUs per GPU: 2
+
+
+Model Training Information
+=========================================
+Model initialized.
+Datasets initialized.
+Training Model . . .
+Completed epoch 1:
+	Training Loss: 0.46706193033854165
+	Validation Loss: 0.26029498291015624
+	Epoch Time: 6.473136798540751
+Completed epoch 2:
+	Training Loss: 0.26940266927083334
+	Validation Loss: 0.2513895111083984
+	Epoch Time: 6.489624456564585
+Completed epoch 3:
+	Training Loss: 0.2660597737630208
+	Validation Loss: 0.25329745483398436
+	Epoch Time: 6.53135716120402
+Completed epoch 4:
+	Training Loss: 0.266142822265625
+	Validation Loss: 0.25362844848632815
+	Epoch Time: 6.515311368306478
+Completed epoch 5:
+	Training Loss: 0.26308233642578127
+	Validation Loss: 0.2519415588378906
+	Epoch Time: 6.528749334812164
+Completed epoch 6:
+	Training Loss: 0.2639496053059896
+	Validation Loss: 0.26482720947265626
+	Epoch Time: 6.491508952776591
+Completed epoch 7:
+	Training Loss: 0.2636853841145833
+	Validation Loss: 0.25175840759277346
+	Epoch Time: 6.51617689927419
+Completed epoch 8:
+	Training Loss: 0.262244873046875
+	Validation Loss: 0.2527528076171875
+	Epoch Time: 6.51489382982254
+Completed epoch 9:
+	Training Loss: 0.26241172281901043
+	Validation Loss: 0.25233824157714846
+	Epoch Time: 6.479728043079376
+Completed epoch 10:
+	Training Loss: 0.26287473551432294
+	Validation Loss: 0.2521270904541016
+	Epoch Time: 6.492899318536122
+Completed epoch 11:
+	Training Loss: 0.2603354695638021
+	Validation Loss: 0.25933367919921874
+	Epoch Time: 6.486380438009898
+Completed epoch 12:
+	Training Loss: 0.26171073404947914
+	Validation Loss: 0.2521004180908203
+	Epoch Time: 6.44821789264679
+Completed epoch 13:
+	Training Loss: 0.2609358723958333
+	Validation Loss: 0.28539764404296875
+	Epoch Time: 6.413062477111817
+Completed epoch 14:
+	Training Loss: 0.26086592610677084
+	Validation Loss: 0.2530358428955078
+	Epoch Time: 6.433446689446767
+Completed epoch 15:
+	Training Loss: 0.2620128987630208
+	Validation Loss: 0.25194065856933595
+	Epoch Time: 6.4346186717351275
+Completed epoch 16:
+	Training Loss: 0.25992842610677086
+	Validation Loss: 0.2536562194824219
+	Epoch Time: 6.477632995446523
+Completed epoch 17:
+	Training Loss: 0.2620628458658854
+	Validation Loss: 0.25221102905273435
+	Epoch Time: 6.454065561294556
+Completed epoch 18:
+	Training Loss: 0.2613492431640625
+	Validation Loss: 0.25215194702148436
+	Epoch Time: 6.431364766756693
+Completed epoch 19:
+	Training Loss: 0.26039198811848957
+	Validation Loss: 0.25302691650390624
+	Epoch Time: 6.621772352854411
+Completed epoch 20:
+	Training Loss: 0.26146028645833336
+	Validation Loss: 0.25384394836425783
+	Epoch Time: 6.490236016114553
+Completed epoch 21:
+	Training Loss: 0.2617853800455729
+	Validation Loss: 0.25285002136230467
+	Epoch Time: 6.499457017580668
+Completed epoch 22:
+	Training Loss: 0.26015559895833335
+	Validation Loss: 0.25189007568359373
+	Epoch Time: 6.511476524670919
+Completed epoch 23:
+	Training Loss: 0.2591338094075521
+	Validation Loss: 0.2525183868408203
+	Epoch Time: 6.491964888572693
+Completed epoch 24:
+	Training Loss: 0.26122733561197914
+	Validation Loss: 0.273769775390625
+	Epoch Time: 6.4676480452219645
+Completed epoch 25:
+	Training Loss: 0.26140157063802083
+	Validation Loss: 0.25196376037597656
+	Epoch Time: 6.451134618123373
+Completed epoch 26:
+	Training Loss: 0.2610878092447917
+	Validation Loss: 0.25186631774902346
+	Epoch Time: 6.641401743888855
+Completed epoch 27:
+	Training Loss: 0.2612556355794271
+	Validation Loss: 0.2542586822509766
+	Epoch Time: 6.591310862700144
+Completed epoch 28:
+	Training Loss: 0.26113507080078124
+	Validation Loss: 0.25210067749023435
+	Epoch Time: 6.482748186588287
+Completed epoch 29:
+	Training Loss: 0.2599237467447917
+	Validation Loss: 0.25315609741210937
+	Epoch Time: 6.625232481956482
+Completed epoch 30:
+	Training Loss: 0.26020515950520834
+	Validation Loss: 0.2519976501464844
+	Epoch Time: 6.642419751485189
+Completed epoch 31:
+	Training Loss: 0.2588863932291667
+	Validation Loss: 0.25189364624023436
+	Epoch Time: 6.564765747388204
+Completed epoch 32:
+	Training Loss: 0.26186100260416667
+	Validation Loss: 0.25181022644042966
+	Epoch Time: 6.5310207088788355
+Completed epoch 33:
+	Training Loss: 0.2601822713216146
+	Validation Loss: 0.2532166442871094
+	Epoch Time: 6.5988805294036865
+Completed epoch 34:
+	Training Loss: 0.2618824462890625
+	Validation Loss: 0.2545317077636719
+	Epoch Time: 6.6912645896275835
+Completed epoch 35:
+	Training Loss: 0.2597388916015625
+	Validation Loss: 0.2519941711425781
+	Epoch Time: 6.670296390851338
+Completed epoch 36:
+	Training Loss: 0.2599462483723958
+	Validation Loss: 0.25357196044921876
+	Epoch Time: 6.624063130219778
+Completed epoch 37:
+	Training Loss: 0.2613828531901042
+	Validation Loss: 0.25213252258300783
+	Epoch Time: 6.778302447001139
+Completed epoch 38:
+	Training Loss: 0.26045916748046877
+	Validation Loss: 0.25326223754882815
+	Epoch Time: 6.904131337006887
+Completed epoch 39:
+	Training Loss: 0.260787841796875
+	Validation Loss: 0.2538844757080078
+	Epoch Time: 6.63585018714269
+Completed epoch 40:
+	Training Loss: 0.26101837158203123
+	Validation Loss: 0.25383367919921873
+	Epoch Time: 6.7272114555041
+Completed epoch 41:
+	Training Loss: 0.258891845703125
+	Validation Loss: 0.2602431640625
+	Epoch Time: 6.604028300444285
+Completed epoch 42:
+	Training Loss: 0.260414306640625
+	Validation Loss: 0.25239602661132815
+	Epoch Time: 6.569981320699056
+Completed epoch 43:
+	Training Loss: 0.26144425455729164
+	Validation Loss: 0.2528272247314453
+	Epoch Time: 6.632049711545308
+Completed epoch 44:
+	Training Loss: 0.2597972819010417
+	Validation Loss: 0.25244879150390626
+	Epoch Time: 6.645231612523397
+Completed epoch 45:
+	Training Loss: 0.26012882486979166
+	Validation Loss: 0.2532516632080078
+	Epoch Time: 6.684797235329946
+Completed epoch 46:
+	Training Loss: 0.2607145589192708
+	Validation Loss: 0.2523101501464844
+	Epoch Time: 6.607527164618174
+Completed epoch 47:
+	Training Loss: 0.2606763102213542
+	Validation Loss: 0.2545759735107422
+	Epoch Time: 6.6013913949330645
+Completed epoch 48:
+	Training Loss: 0.26137896728515625
+	Validation Loss: 0.251913330078125
+	Epoch Time: 6.568152149518331
+Completed epoch 49:
+	Training Loss: 0.2599554443359375
+	Validation Loss: 0.2518281860351563
+	Epoch Time: 6.671463827292125
+Submitted batch job 6346
+Completed epoch 50:
+	Training Loss: 0.2601581624348958
+	Validation Loss: 0.2520760955810547
+	Epoch Time: 6.439878602822621
+Saving model checkpoint at end of epoch 50. . .
+Model checkpoint saved at end of epoch 50.
+Training and Validation results sucessfully written to csv.
+===================TIME STARTED===================
+Thu May 2 14:10:01 MDT 2024
+===================TIME FINISHED===================
+Thu May 2 19:38:19 MDT 2024
