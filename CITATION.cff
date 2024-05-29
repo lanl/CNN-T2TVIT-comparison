@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Comparing the Accuracy and Training Paradigms of
+  Convolutional Neural Networks and Tokens-to-Token Vision
+  Transformers
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Skylar
+    family-names: Callis
+    email: sjcallis@lanl.gov
+    affiliation: Los Alamos National Laboratory
+    orcid: 'https://orcid.org/0009-0009-4133-377X'
+abstract: >-
+  This directory contains code associated with "Comparing
+  the Accuracy and Training Paradigms of Convolutional
+  Neural Networks and Tokens-to-Token Vision Transformers",
+  as submitted to the Minitrack on Trustworthy Artificial
+  Intelligence and Machine Learning at the 2025 Hawaii
+  International Conference on System Sciences (HICSS).
+keywords:
+  - machine learning
+  - convolutional neural networks
+  - transformers
+  - vision transformers
+  - attention
+  - pytorch
+license: BSD-3-Clause
