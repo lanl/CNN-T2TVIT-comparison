@@ -50,8 +50,6 @@ The `CNN_Models` and `T2T_ViT_Models` directories contain the code to train thei
 
 To initiate the training of a model, enter into that model's directory and modify the `hyperparameters.csv` file to reflect the new study. Lines can be commented out in `hyperparametrs.csv` with the `#` character. Commented lines will be ignored when the study is initiated. To start the study, call `python START_study.py --csv hyperparameters.csv`. Results will then be saved to `study_SID` within the model directory.
 
-The model directories also contain the best performing model checkpoint across all of the model instances.
-
 Each of the study directories include the `studySID_START.slurm`, `training_slurm.tmpl`, `studySID_START.input`, and `training_input.tmpl` files which specify training and model parameters. Additionally, the directoriews include `studySID_epoch*.out` files, which show the prints to terminal during a training process. These include the training and validation loss at each epoch. Only the final `studySID_epoch*.err` file is included, as errors are necessarily not present for earlier epochs. For sucessful studies, the `.err` file is empty. Finally, the study directories contain the `studySID_trainval_summary.csv`, `studySID_testset_results.csv`, and `studySID_bestCHKPT_testset_results.csv`. The `trainval_summary` contains epoch summary information, including training and validation loss and time to complete. Both the `testset_results` files include the model predictions on the full test set, either at the end of training or at the best checkpoint.
 
 ### Scripts
